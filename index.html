@@ -11,35 +11,58 @@
 <body>
   <main>
     <div class="card">
-      <img src="images/drawers.jpg" alt="drawers" class="card-img">
+      <div class="card-img-container"></div>
       <div class="card-content">
-        <h1>
-          Shift the overall look and feel by adding these wonderful 
-          touches to furniture in your home      
-        </h1>
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps 
-          it felt slightly bare and uninviting. I’ve got some simple tips 
-          to help you make any room feel complete.        
-        </p>
-        <div class="card-profile">
-          <img src="images/avatar-michelle.jpg" alt="" class="avatar">
-          <div class="profile-desc">
-            <h2 class="name">Michelle Appleton</h2>
-            <p class="date">28 Jun 2020</p>
+        <div class="container">
+          <h1>
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home      
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.        
+          </p>
+          <div class="card-profile">
+            <img src="images/avatar-michelle.jpg" alt="" class="avatar">
+            <div class="profile-desc">
+              <h2 class="name">Michelle Appleton</h2>
+              <p class="date">28 Jun 2020</p>
+            </div>
+            <button class="share-btn" type="button">
+              <img src="images/icon-share.svg" alt="share" class="share-btn-img">
+              <div class="share-desktop hidden">
+                <div class="share-flex desktop">
+                  <p>share</p>
+                  <a href="https://facebook.com/" target="_blank" class="facebook"><img src="images/icon-facebook.svg" alt="facebook"></a>
+                  <a href="https://x.com/" target="_blank" class="twitter"><img src="images/icon-twitter.svg" alt="twitter"></a>
+                  <a href="https://www.pinterest.com/" target="_blank" class="pinterest"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+                </div>
+                <div class="arrow-desktop"></div>
+              </div>
+            </button>
           </div>
-          <button class="share-btn" type="button">
-            <img src="images/icon-share.svg" alt="" class="share-btn-img">
-          </button>
+        </div>
+
+        <div class="share-div hidden">
+          <div class="share-flex container">
+            <p>share</p>
+            <a href="https://facebook.com/" target="_blank" class="facebook"><img src="images/icon-facebook.svg" alt="facebook"></a>
+            <a href="https://x.com/" target="_blank" class="twitter"><img src="images/icon-twitter.svg" alt="twitter"></a>
+            <a href="https://www.pinterest.com/" target="_blank" class="pinterest"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+            <button id="share-btn" class="share-btn" type="button">
+              <img src="images/icon-share.svg" alt="share" class="share-btn-img">
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Aero Bestari Wangsaputra</a>.
+    </div>
   </main>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Aero Bestari Wangsaputra</a>.
-  </div>
 
   <script src="script.js"></script>
 </body>
